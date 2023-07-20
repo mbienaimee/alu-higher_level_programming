@@ -21,7 +21,7 @@ append new elements:
 	 [1, 2, 3]
 
 already sorted list:
-         >>> ml.print_sorted(i)
+         >>> ml.print_sorted()
          [1, 2, 3]
 
 unsorted list:
