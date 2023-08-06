@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a base modal class"""
+# A Base class
+"""Defines a base modal class."""
 import json
 
 
