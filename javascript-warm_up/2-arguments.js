@@ -1,12 +1,10 @@
-#!/usr/bin/nodec
-const x=12;
-if(x===null){
-	console.log('No argument');
-}
-else if( x!==null){
-	console.log('Argument found')
+#!/usr/bin/node
+const args = process.argv.slice(2);
 
-}
-else{
-     console.log(Arguments found);
+if (args.length === 0) {
+  console.log('No argument');
+} else if (args.length === 1) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
 }
